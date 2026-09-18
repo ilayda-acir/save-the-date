@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>İlayda &amp; Fabian · Save the Date</title>
+<meta name="description" content="İlayda &amp; Fabian are getting married on 4 September 2027 in İzmir, Turkey. Formal invitation to follow.">
+<meta name="theme-color" content="#8E8E8C">
+<link rel="canonical" href="https://ilayda-acir.github.io/save-the-date/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ilayda-acir.github.io/save-the-date/">
+<meta property="og:title" content="İlayda &amp; Fabian · Save the Date">
+<meta property="og:description" content="04.09.2027 · İzmir, Turkey">
+<meta property="og:image" content="https://ilayda-acir.github.io/save-the-date/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8C%85%3C/text%3E%3C/svg%3E">
+<link rel="preload" as="image" href="assets/front.webp">
+<link rel="preload" as="font" type="font/woff2" href="assets/montserrat-latin.woff2" crossorigin>
+<style>
+/* Montserrat is self-hosted so the button reads the same on every phone, online or not */
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:400 500;font-display:swap;
+  src:url("assets/montserrat-latin.woff2") format("woff2")}
+/* One deliberate look: the Canva card over a black and white Aegean sunset.
+   The photo is anchored to the bottom so the peaks stay in frame.
+   No dark variant on purpose. */
+:root{
+  color-scheme: light;
+  --sky:#8E8E8C;
+  --paper:#FEFEFD;
+  --ink:#1C1C1A;
+  --ink-soft:#4A4B44;
+  --shadow:rgba(0,0,0,.34);
+  --sans:"Montserrat", "Helvetica Neue", Arial, sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+html{background:var(--sky)}
+body{background:transparent;color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased;min-height:100svh}
+/* the photo is pinned to the viewport, so it fills the screen however far the page scrolls */
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:var(--sky) url("assets/sunset-small.webp") center bottom / cover no-repeat}
+@media (min-width:700px), (min-resolution:2dppx){
+  body::before{background-image:url("assets/sunset.webp")}
+}
+p{margin:0}
+img{display:block;max-width:none}
+:focus-visible{outline:1.5px solid var(--ink);outline-offset:4px}
+
+.stage{min-height:100svh;overflow-x:clip;display:grid;place-items:center;align-content:center;gap:clamp(28px,5vh,48px);padding:clamp(36px,7vh,80px) 16px clamp(240px,30vh,300px)}
+
+.sheet{position:relative;width:min(460px,100%)}
+.card{position:relative;aspect-ratio:3036/4250;background:var(--paper);overflow:hidden;
+  box-shadow:0 1px 2px rgba(0,0,0,.12),0 18px 34px -16px var(--shadow),0 50px 90px -40px var(--shadow)}
+.card img{width:100%;height:100%}
+/* a little paper tooth over the print, so it reads as card stock rather than a screen */
+.card canvas{position:absolute;inset:0;width:100%;height:100%;display:block;pointer-events:none;mix-blend-mode:multiply}
+
+.below{position:relative;display:grid;justify-items:center;margin-top:-.5cm}
+.cal summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:10px;white-space:nowrap;color:var(--ink);background:var(--paper);font:500 11.5px/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;padding:16px 26px;border-radius:999px;transition:transform .35s cubic-bezier(.16,1,.3,1),background .3s}
+.cal summary::-webkit-details-marker{display:none}
+.cal summary:hover{transform:translateY(-2px);background:#FFFFFF}
+.cal summary{box-shadow:0 1px 2px rgba(0,0,0,.12),0 10px 24px -12px rgba(0,0,0,.4)}
+.cal summary:active{transform:translateY(1px) scale(.98)}
+.cal summary svg{width:14px;height:14px}
+.cal summary .chev{width:10px;height:10px;transition:transform .3s}
+.cal[open] summary .chev{transform:rotate(180deg)}
+.cal ul{position:absolute;left:50%;top:calc(100% + 10px);transform:translateX(-50%);z-index:5;margin:0;padding:6px;list-style:none;min-width:250px;background:var(--paper);border-radius:14px;
+  box-shadow:0 1px 2px rgba(0,0,0,.1),0 18px 40px -18px var(--shadow)}
+.cal a{display:block;padding:12px 16px;border-radius:9px;color:var(--ink);text-decoration:none;font:400 13px/1.2 var(--sans);letter-spacing:.04em}
+.cal a:hover,.cal a:focus-visible{background:#EFEFEC}
+.cal a small{display:block;margin-top:3px;color:var(--ink-soft);font-size:11px;letter-spacing:.02em}
+
+@media (prefers-reduced-motion: no-preference){
+  .card{animation:rise 1.2s cubic-bezier(.16,1,.3,1) both}
+  .below{animation:fade 1s .7s ease both}
+  .cal ul{animation:pop .25s cubic-bezier(.16,1,.3,1) both}
+}
+@keyframes rise{from{opacity:0;transform:translateY(28px)}}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}}
+@keyframes pop{from{opacity:0;transform:translate(-50%,-6px)}}
+</style>
+</head>
+<body>
+<main class="stage">
+  <div class="sheet">
+    <article class="card">
+      <img src="assets/front.webp" width="1500" height="2100"
+           alt="Save the date. İlayda and Fabian are getting married. 04.09.2027, İzmir, Turkey. Formal invitation to follow.">
+      <canvas id="paper" aria-hidden="true"></canvas>
+    </article>
+  </div>
+
+  <div class="below">
+    <details class="cal" id="cal">
+      <summary>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>
+        Add to calendar
+        <svg class="chev" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg>
+      </summary>
+      <ul id="cal-list">
+        <li><a href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=%C4%B0layda+%26+Fabian%27s+Wedding&amp;dates=20270904%2F20270905&amp;location=%C4%B0zmir%2C+Turkey&amp;details=Save+the+date%21+Formal+invitation+to+follow." target="_blank" rel="noopener">Google Calendar</a></li>
+        <li><a href="https://outlook.live.com/calendar/0/deeplink/compose?path=%2Fcalendar%2Faction%2Fcompose&amp;rru=addevent&amp;subject=%C4%B0layda+%26+Fabian%27s+Wedding&amp;startdt=2027-09-04&amp;enddt=2027-09-05&amp;allday=true&amp;location=%C4%B0zmir%2C+Turkey&amp;body=Save+the+date%21+Formal+invitation+to+follow." target="_blank" rel="noopener">Outlook Calendar</a></li>
+        <li><a href="https://calendar.yahoo.com/?v=60&amp;title=%C4%B0layda+%26+Fabian%27s+Wedding&amp;st=20270904&amp;dur=allday&amp;in_loc=%C4%B0zmir%2C+Turkey&amp;desc=Save+the+date%21+Formal+invitation+to+follow." target="_blank" rel="noopener">Yahoo Calendar</a></li>
+      </ul>
+    </details>
+  </div>
+</main>
+
+<script>
+(() => {
+  /* calendar menu: the links are plain HTML, so they work even where scripts do not run */
+  const list = document.getElementById("cal-list"), cal = document.getElementById("cal");
+  list.querySelectorAll("a").forEach(a => a.addEventListener("click", () => { cal.open = false; }));
+  /* when the menu opens, bring it fully into view with some room below */
+  cal.addEventListener("toggle", () => {
+    if (!cal.open) return;
+    const r = list.getBoundingClientRect(), gap = 48;
+    const over = r.bottom + gap - innerHeight;
+    if (over > 0) scrollBy({ top: over, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+  });
+  document.addEventListener("click", e => { if (cal.open && !cal.contains(e.target)) cal.open = false; });
+  document.addEventListener("keydown", e => { if (e.key === "Escape" && cal.open) { cal.open = false; cal.querySelector("summary").focus(); } });
+
+  /* paper grain */
+  const cv = document.getElementById("paper"), ctx = cv.getContext("2d"), card = cv.parentElement;
+  const rng = s => () => (s = (s * 16807) % 2147483647) / 2147483647;
+  function paint() {
+    const w = card.offsetWidth, h = card.offsetHeight, dpr = Math.min(devicePixelRatio || 1, 2);
+    if (!w) return;
+    cv.width = Math.round(w * dpr); cv.height = Math.round(h * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const R = rng(7);
+    ctx.fillStyle = "#7A7A76";
+    for (let k = 0, n = Math.round(w * h / 140); k < n; k++) { ctx.globalAlpha = .03 + R() * .05; ctx.fillRect(R() * w, R() * h, 1, 1); }
+  }
+  let last = 0;
+  new ResizeObserver(() => { if (card.offsetWidth !== last) { last = card.offsetWidth; paint(); } }).observe(card);
+})();
+</script>
+</body>
+</html>
