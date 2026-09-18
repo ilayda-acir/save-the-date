@@ -12,8 +12,8 @@
 <meta property="og:title" content="İlayda &amp; Fabian · Save the Date">
 <meta property="og:description" content="04.09.2027 · İzmir, Turkey">
 <meta property="og:site_name" content="İlayda &amp; Fabian">
-<meta property="og:image" content="https://ilayda-acir.github.io/save-the-date/assets/og-card-blue.jpg">
-<meta property="og:image:secure_url" content="https://ilayda-acir.github.io/save-the-date/assets/og-card-blue.jpg">
+<meta property="og:image" content="https://ilayda-acir.github.io/save-the-date/assets/og-card-blue-v2.jpg">
+<meta property="og:image:secure_url" content="https://ilayda-acir.github.io/save-the-date/assets/og-card-blue-v2.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:alt" content="Save the date card for İlayda and Fabian, 04.09.2027, İzmir, Turkey">
 <meta property="og:image:width" content="1200">
@@ -27,7 +27,7 @@
 @font-face{font-family:"Montserrat";font-style:normal;font-weight:400 500;font-display:swap;
   src:url("assets/montserrat-latin.woff2") format("woff2")}
 /* One deliberate look: the cobalt Canva card over an Aegean sunset.
-   The photo is positioned on its horizon so the glow shows either side of the card.
+   The photo is cropped so the sun sits on the centre line, hidden right behind the card.
    No dark variant on purpose. */
 :root{
   color-scheme: light;
@@ -47,7 +47,7 @@ body{background:transparent;color:var(--ink);font-family:var(--sans);-webkit-fon
 /* sized to the large viewport so it still reaches the bottom edge behind the iPhone toolbar */
 body::before{content:"";position:fixed;left:0;right:0;top:0;height:100vh;height:100lvh;z-index:-1;pointer-events:none;
   background:linear-gradient(to bottom, rgba(22,54,99,.7), rgba(22,54,99,0) 14%),
-    url("assets/sunset-color2.webp") center 60% / cover no-repeat, var(--sky)}
+    url("assets/sunset-color2-centered.webp") center 60% / cover no-repeat, var(--sky)}
 /* the browser bars on phones take the theme colour (#163663): the navy top fade and the deep sea
    at the bottom let both bars run into the photo */
 p{margin:0}
